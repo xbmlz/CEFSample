@@ -3,11 +3,13 @@ e:\chenxc\code\cef\cefsample\win32sample\win32sample\release\win32sample.obj
 e:\chenxc\code\cef\cefsample\win32sample\win32sample\release\samplehandlerwin.obj
 e:\chenxc\code\cef\cefsample\win32sample\win32sample\release\samplehandler.obj
 e:\chenxc\code\cef\cefsample\win32sample\win32sample\release\sampleapp.obj
-e:\chenxc\code\cef\cefsample\win32sample\release\win32sample.exe
-e:\chenxc\code\cef\cefsample\win32sample\release\win32sample.pdb
+e:\chenxc\code\cef\cefsample\build\release\win32sample.exe
+e:\chenxc\code\cef\cefsample\build\release\win32sample.pdb
 e:\chenxc\code\cef\cefsample\win32sample\win32sample\release\win32sample.res
-e:\chenxc\code\cef\cefsample\win32sample\release\win32sample.ipdb
-e:\chenxc\code\cef\cefsample\win32sample\release\win32sample.iobj
+e:\chenxc\code\cef\cefsample\build\release\win32sample.ipdb
+e:\chenxc\code\cef\cefsample\build\release\win32sample.iobj
+e:\chenxc\code\cef\cefsample\win32sample\release\..\..\build\release\win32sample.pdb
+e:\chenxc\code\cef\cefsample\win32sample\release\..\..\build\release\win32sample.exe
 e:\chenxc\code\cef\cefsample\win32sample\win32sample\release\win32sample.tlog\cl.command.1.tlog
 e:\chenxc\code\cef\cefsample\win32sample\win32sample\release\win32sample.tlog\cl.read.1.tlog
 e:\chenxc\code\cef\cefsample\win32sample\win32sample\release\win32sample.tlog\cl.write.1.tlog

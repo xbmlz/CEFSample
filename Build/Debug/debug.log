@@ -44,3 +44,4 @@
 [0321/014715:ERROR:webrtcsession.cc(1446)] ConnectDataChannel called when data_channel_ is NULL.
 [0321/014717:WARNING:quota_manager.cc(1778)] Create directory failed for path
 [0321/014717:WARNING:quota_manager.cc(1778)] Create directory failed for path
+[0321/133039:ERROR:ipc_channel_win.cc(512)] pipe error: 232

@@ -3,8 +3,11 @@
 
 class SampleHandler : public CefClient,
     public CefDisplayHandler,
+    public CefKeyboardHandler,
+    public CefDownloadHandler,
     public CefLifeSpanHandler,
-    public CefLoadHandler {
+    public CefLoadHandler, 
+    public CefContextMenuHandler{
 public:
     SampleHandler();
     ~SampleHandler();
@@ -43,6 +46,53 @@ public:
     void CloseAllBrowsers(bool force_close);
 
     bool IsClosing() const { return is_closing_; }
+
+    // EXT
+    // Show Devtools
+    void ShowDevelopTools(CefRefPtr<CefBrowser> browser, const CefPoint& inspect_element_at);
+    void CloseDevelopTools(CefRefPtr<CefBrowser> browser);
+
+    // F5
+    virtual CefRefPtr<CefKeyboardHandler> GetKeyboardHandler() //实现  
+    {
+        return this;
+    }
+    virtual bool OnPreKeyEvent(CefRefPtr<CefBrowser> browser,
+        const CefKeyEvent& event,
+        CefEventHandle os_event,
+        bool* is_keyboard_shortcut) OVERRIDE;
+    virtual bool OnKeyEvent(CefRefPtr<CefBrowser> browser,
+        const CefKeyEvent& event,
+        CefEventHandle os_event) OVERRIDE;
+
+
+    // ContextMenu
+    virtual CefRefPtr<CefContextMenuHandler> GetContextMenuHandler() //实现  
+    {
+        return this;
+    }
+    virtual void OnBeforeContextMenu(CefRefPtr<CefBrowser> browser,
+        CefRefPtr<CefFrame> frame,
+        CefRefPtr<CefContextMenuParams> params,
+        CefRefPtr<CefMenuModel> model) OVERRIDE;
+
+    virtual bool OnContextMenuCommand(CefRefPtr<CefBrowser> browser,
+        CefRefPtr<CefFrame> frame,
+        CefRefPtr<CefContextMenuParams> params,
+        int command_id,
+        EventFlags event_flags) OVERRIDE;
+
+    //download
+    virtual CefRefPtr<CefDownloadHandler> GetDownloadHandler() { return this; }
+    virtual void OnBeforeDownload(
+        CefRefPtr<CefBrowser> browser,
+        CefRefPtr<CefDownloadItem> download_item,
+        const CefString& suggested_name,
+        CefRefPtr<CefBeforeDownloadCallback> callback) OVERRIDE;
+    virtual void OnDownloadUpdated(
+        CefRefPtr<CefBrowser> browser,
+        CefRefPtr<CefDownloadItem> download_item,
+        CefRefPtr<CefDownloadItemCallback> callback) OVERRIDE;
 
 private:
     // List of existing browser windows. Only accessed on the CEF UI thread.
