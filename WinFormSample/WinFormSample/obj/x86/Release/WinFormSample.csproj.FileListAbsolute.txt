@@ -1,0 +1,13 @@
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\bin\x86\Release\WinFormSample.exe
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\bin\x86\Release\CefSharp.Core.dll
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\bin\x86\Release\CefSharp.dll
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\bin\x86\Release\CefSharp.WinForms.dll
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\bin\x86\Release\CefSharp.WinForms.xml
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\bin\x86\Release\CefSharp.xml
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\bin\x86\Release\CefSharp.Core.xml
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\obj\x86\Release\WinFormSample.MainForm.resources
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\obj\x86\Release\WinFormSample.Properties.Resources.resources
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\obj\x86\Release\WinFormSample.csproj.GenerateResource.cache
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\obj\x86\Release\WinFormSample.csproj.CopyComplete
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\obj\x86\Release\WinFormSample.exe
+E:\chenxc\code\cef\CEFSample\WinFormSample\WinFormSample\obj\x86\Release\WinFormSample.csprojAssemblyReference.cache

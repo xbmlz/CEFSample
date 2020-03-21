@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormSample", "WinFormSample\WinFormSample.csproj", "{5BF0E3F0-460F-4B03-AB8E-89D7CBA33CCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BF0E3F0-460F-4B03-AB8E-89D7CBA33CCA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5BF0E3F0-460F-4B03-AB8E-89D7CBA33CCA}.Debug|Any CPU.Build.0 = Debug|x86
+		{5BF0E3F0-460F-4B03-AB8E-89D7CBA33CCA}.Debug|x86.ActiveCfg = Debug|x86
+		{5BF0E3F0-460F-4B03-AB8E-89D7CBA33CCA}.Debug|x86.Build.0 = Debug|x86
+		{5BF0E3F0-460F-4B03-AB8E-89D7CBA33CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF0E3F0-460F-4B03-AB8E-89D7CBA33CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF0E3F0-460F-4B03-AB8E-89D7CBA33CCA}.Release|x86.ActiveCfg = Release|x86
+		{5BF0E3F0-460F-4B03-AB8E-89D7CBA33CCA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A2B437B-AF9B-4421-B5B4-9BF7F74FE76B}
+	EndGlobalSection
+EndGlobal
